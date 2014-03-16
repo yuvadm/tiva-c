@@ -18,6 +18,6 @@ Assuming you're using the Tiva C Connected Launchpad dev board (`ek-tm4c1294xl`)
 ```bash
 $ cd boards/ek-tm4c1294xl/blinky
 $ make
-$ lm4flash gcc/project0.bin
+$ lm4flash gcc/blinky.bin
 # Great success!
 ```
