@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="commands.c"/>
+        <file name="commands.h"/>
+        <file name="lwipopts.h"/>
+        <file name="qs_iot.c"/>
+        <file name="qs_iot.h"/>
+        <file name="requests.c"/>
+        <file name="requests.h"/>
+        <file name="stats.c"/>
+        <file name="stats.h"/>
+        <file name="tictactoe.c"/>
+        <file name="tictactoe.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

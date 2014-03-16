@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="hibernate.c"/>
+        <file name="hibernate_commands.c"/>
+        <file name="hibernate_commands.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

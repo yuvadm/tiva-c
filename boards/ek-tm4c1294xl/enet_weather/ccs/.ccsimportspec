@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="debug.h"/>
+        <file name="eth_client.c"/>
+        <file name="eth_client.h"/>
+        <file name="json.c"/>
+        <file name="json.h"/>
+        <file name="images.c"/>
+        <file name="images.h"/>
+        <file name="lwipopts.h"/>
+        <file name="enet_weather.c"/>
+        <file name="enet_weather.h"/>
+        <file name="commands.c"/>
+        <file name="commands.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

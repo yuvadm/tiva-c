@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="simple_fs.c"/>
+        <file name="simple_fs.h"/>
+        <file name="usb_stick_update.c"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

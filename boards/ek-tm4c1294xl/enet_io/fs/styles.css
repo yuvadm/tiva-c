@@ -1,0 +1,104 @@
+/* Copyright (c) 2013-2014 Texas Instruments Incorporated.  All rights reserved. */
+
+/* Styling for the entire document. */
+body
+{
+    background-color: white;
+    color: black;
+    font-family: Ariel,Helvetica,sans-serif;
+}
+
+/* Styling for the heading div. */
+#heading
+{
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#heading_h1
+{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#heading_h2
+{
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#heading hr
+{
+    border-bottom: 1px solid #ff0000;
+    border-top: 1px solid #ff0000;
+}
+
+#heading a img
+{
+    border: 0;
+}
+
+/* Styling for the menu div. */
+#menu
+{
+    float: left;
+    margin-bottom: 10px;
+    width: 225px;
+}
+
+#menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a:link, #menu a:visited
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+#menu a:hover, #menu a:active
+{
+    background-color: #bf0000;
+}
+
+/* Styling for the content div. */
+#content
+{
+    margin-bottom: 10px;
+    margin-left: 225px;
+}
+
+#content_heading
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styling for the footing div. */
+#footing
+{
+    clear: both;
+    font-size: .75em;
+    font-style: italic;
+    text-align: right;
+}
+
+#footing hr
+{
+    border-bottom: 1px solid #ff0000;
+    border-top: 1px solid #ff0000;
+}
