@@ -16,7 +16,7 @@ Tested on Mac OS X 10.6.8, should work on most Macs and Linuxes.
 Assuming you're using the Tiva C Connected Launchpad dev board (`ek-tm4c1294xl`):
 
 ```bash
-$ cd boards/ek-tm4c1294xl/project0
+$ cd boards/ek-tm4c1294xl/blinky
 $ make
 $ lm4flash gcc/project0.bin
 # Great success!
