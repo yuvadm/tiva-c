@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="fontview.c"/>
+        <file name="fatwrapper.c"/>
+        <file name="fatwrapper.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

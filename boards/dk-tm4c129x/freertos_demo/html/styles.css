@@ -1,0 +1,31 @@
+/*
+ * Copyright (c) 2009-2014 Texas Instruments Incorporated.  All rights reserved.
+ */
+
+BODY
+{
+   font-family: Arial;
+   background-color: white;
+   margin: 10px;
+   padding: 0px
+}
+
+BODY.side
+{
+   font-family: Arial;
+   background-color: white;
+   margin: 10px;
+   padding: 0px
+}
+
+H1
+{
+   background-color: white;
+   color: black;
+   font-weight: normal;
+   font-family: Arial;
+   font-size: 24pt;
+   text-decoration: none;
+   text-align: center;
+   line-height: 50%;
+}

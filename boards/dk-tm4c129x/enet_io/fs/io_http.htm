@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!-- Copyright (c) 2013 Texas Instruments Incorporated. All rights reserved. -->
+<html>
+
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>I/O Control Demo 1</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    </head>
+
+    <body>
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" width="75%">
+                        <center>
+                            <h2 align="center">I/O Control Demo 1</h2>
+                        </center>
+                        <hr size="2" width="100%">
+                        <p>This demonstration shows how to perform control and status reporting using HTTP requests embedded within Javascript code on the web page itself. Using this method, it is possible to update sections of text on the current page without the need to refresh the
+                            entire page.</p>
+                        <p>Toggle USER LED and report the state of the LED</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input id="toggle" value="Toggle LED" onclick="toggle_led();" type="button">
+                                    </td>
+                                    <td>USER LED:</td>
+                                    <td>
+                                        <div id="ledstate" align="center">-</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p></p>
+                        <p>Set the speed of the animation on the display. Speed is expressed as a percentage.</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Current Speed:</td>
+                                    <td>
+                                        <div id="current_speed" align="center">-</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="speed_set" value="Set Speed" onclick="speedSet();" type="button">
+                                    </td>
+                                    <td>
+                                        <input maxlength="3" size="4" id="speed_percent" type="text">%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>

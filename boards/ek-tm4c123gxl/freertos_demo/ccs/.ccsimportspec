@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="FreeRTOSConfig.h"/>
+        <file name="freertos_demo.c"/>
+        <file name="led_task.c"/>
+        <file name="led_task.h"/>
+        <file name="switch_task.c"/>
+        <file name="switch_task.h"/>
+        <file name="priorities.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="usb_host_hub.c"/>
+        <file name="usb_host_hub.h"/>
+        <file name="usb_host_keyboard.c"/>
+        <file name="usb_host_msc.c"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

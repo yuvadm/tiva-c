@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="cgifuncs.c"/>
+        <file name="cgifuncs.h"/>
+        <file name="enet_io.c"/>
+        <file name="io.c"/>
+        <file name="io.h"/>
+        <file name="io_fs.c"/>
+        <file name="io_fsdata.h"/>
+        <file name="lwipopts.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+        <directory name="fs">
+            <file name="404.htm"/>
+            <file name="about.htm"/>
+            <file name="block.htm"/>
+            <file name="block.jpg"/>
+            <file name="dk-tm4c129x.jpg"/>
+            <file name="favicon.ico"/>
+            <file name="index.htm"/>
+            <file name="io_cgi.ssi"/>
+            <file name="io_http.htm"/>
+            <file name="javascript.js"/>
+            <file name="javascript_load.js"/>
+            <file name="overview.htm"/>
+            <file name="perror.htm"/>
+            <file name="styles.css"/>
+            <file name="ti.jpg"/>
+            <file name="tm4c.jpg"/>
+        </directory>
+    </source>
+</importSpec>

@@ -1,0 +1,44 @@
+<!-- Copyright (c) 2009-2014 Texas Instruments Incorporated.  All rights reserved. -->
+<html>
+<head>
+<meta content="text/html;charset=ISO-8869-1" http-equiv="content-type">
+<link href="./styles.css" rel="stylesheet" media="screen">
+<title>I/O Control</title>
+</head>
+
+<body>
+<h1 align="center">I/O Control</h1>
+<hr size="2" width="100%">
+The controls on this page provide interaction with the FreeRTOS tasks running
+on the development board.
+<ul>
+<li><i>LED Toggle Rate</i>
+<br><br>
+This controls the rate at which the on-board LED toggles.
+<br><br>
+Current toggle rate: <!--#ledrate--> milliseconds.
+<br>
+<form method="get" action="toggle_rate.cgi">
+New toggle rate:
+<input value="500" maxlength="4" size="5" name="time">
+milliseconds.
+<input name="submit" value="Update toggle rate" type="submit">
+</form>
+<li><i>Spider Speed</i>
+<br><br>
+This controls the rate at which the spiders crawl about the LCD.
+<br><br>
+Current spider move rate: <!--#spider--> milliseconds.
+<br>
+<form method="get" action="spider_rate.cgi">
+New spider move rate:
+<input value="10" maxlength="3" size="4" name="time">
+milliseconds.
+<input name="submit" Value="Update spider move rate" type="submit">
+</form>
+<b>Note:</b> If there are a large number of spiders alive, it is possible that
+decreasing the spider move rate will not make them move any faster (since the
+processor is being fully consumed).
+</ul>
+</body>
+</html>

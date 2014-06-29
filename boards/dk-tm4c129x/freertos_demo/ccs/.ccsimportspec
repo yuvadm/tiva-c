@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="cgifuncs.c"/>
+        <file name="cgifuncs.h"/>
+        <file name="display_task.c"/>
+        <file name="display_task.h"/>
+        <file name="freertos_demo.c"/>
+        <file name="freertos_demo.h"/>
+        <file name="FreeRTOSConfig.h"/>
+        <file name="fs.c"/>
+        <file name="htmldata.h"/>
+        <file name="idle_task.c"/>
+        <file name="idle_task.h"/>
+        <file name="images.c"/>
+        <file name="images.h"/>
+        <file name="led_task.c"/>
+        <file name="led_task.h"/>
+        <file name="lwip_task.c"/>
+        <file name="lwip_task.h"/>
+        <file name="lwipopts.h"/>
+        <file name="priorities.h"/>
+        <file name="random.c"/>
+        <file name="random.h"/>
+        <file name="spider_task.c"/>
+        <file name="spider_task.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+        <directory name="html">
+            <file name="404.htm"/>
+            <file name="block.htm"/>
+            <file name="family.htm"/>
+            <file name="favicon.ico"/>
+            <file name="footer.htm"/>
+            <file name="header.htm"/>
+            <file name="index.htm"/>
+            <file name="io.ssi"/>
+            <file name="lwipstat.ssi"/>
+            <file name="perror.htm"/>
+            <file name="freertos.htm"/>
+            <file name="side.htm"/>
+            <file name="styles.css"/>
+            <file name="ti.htm"/>
+            <directory name="images">
+                <file name="apps.jpg"/>
+                <file name="c-c-c-communicate-small.jpg"/>
+                <file name="c-c-c-connect-small.jpg"/>
+                <file name="c-c-c-control-small.jpg"/>
+                <file name="cortex.jpg"/>
+                <file name="freertos.jpg"/>
+                <file name="mcu_side-by-side.jpg"/>
+                <file name="ti.gif"/>
+                <file name="ti_logo.gif"/>
+                <file name="tiva.jpg"/>
+                <file name="tiva_globe-small.gif"/>
+            </directory>
+        </directory>
+    </source>
+</importSpec>

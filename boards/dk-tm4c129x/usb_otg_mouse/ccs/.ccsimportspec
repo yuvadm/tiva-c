@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="usb_dev_mouse.c"/>
+        <file name="usb_host_mouse.c"/>
+        <file name="usb_mouse_structs.c"/>
+        <file name="usb_mouse_structs.h"/>
+        <file name="usb_otg_mouse.c"/>
+        <file name="usb_otg_mouse.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

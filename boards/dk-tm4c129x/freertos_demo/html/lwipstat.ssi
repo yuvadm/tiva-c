@@ -1,0 +1,110 @@
+<!-- Copyright (c) 2009-2014 Texas Instruments Incorporated.  All rights reserved. -->
+<html>
+<head>
+<meta content="text/html;charset=ISO-8869-1" http-equiv="content-type">
+<meta http-equiv="refresh" content="5" />
+<link href="./styles.css" rel="stylesheet" media="screen">
+<title>lwIP Statistics</title>
+</head>
+
+<body>
+<h1 align="center">lwIP Statistics</h1>
+<hr size="2" width="100%">
+Statistics collected by the lwIP stack.  The display is automatically updated
+every five seconds.
+<br><br>
+<table width="100%" border="1">
+<tr>
+<th>Packet<br>Type</th>
+<th>Packets<br>Sent</th>
+<th>Packets<br>Received</th>
+<th>Packets<br>Dropped</th>
+<th>Checksum<br>Errors</th>
+<th>Length<br>Errors</th>
+<th>Memory<br>Errors</th>
+<th>Routing<br>Errors</th>
+<th>Protocol<br>Errors</th>
+<th>Options<br>Errors</th>
+<th>Other<br>Errors</th>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Ethernet" target="_empty">Link</a></td>
+<td align="center"><!--#linksent--></td>
+<td align="center"><!--#linkrecv--></td>
+<td align="center"><!--#linkdrop--></td>
+<td align="center"><!--#linkcksm--></td>
+<td align="center"><!--#linklen--></td>
+<td align="center"><!--#linkmem--></td>
+<td align="center"><!--#linkrte--></td>
+<td align="center"><!--#linkprot--></td>
+<td align="center"><!--#linkopt--></td>
+<td align="center"><!--#linkmisc--></td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Address_Resolution_Protocol" target="_empty">ARP</a></td>
+<td align="center"><!--#arpsent--></td>
+<td align="center"><!--#arprecv--></td>
+<td align="center"><!--#arpdrop--></td>
+<td align="center"><!--#arpcksm--></td>
+<td align="center"><!--#arplen--></td>
+<td align="center"><!--#arpmem--></td>
+<td align="center"><!--#arprte--></td>
+<td align="center"><!--#arpprot--></td>
+<td align="center"><!--#arpopt--></td>
+<td align="center"><!--#arpmisc--></td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Internet_Control_Message_Protocol" target="_empty">ICMP</a></td>
+<td align="center"><!--#icmpsent--></td>
+<td align="center"><!--#icmprecv--></td>
+<td align="center"><!--#icmpdrop--></td>
+<td align="center"><!--#icmpcksm--></td>
+<td align="center"><!--#icmplen--></td>
+<td align="center"><!--#icmpmem--></td>
+<td align="center"><!--#icmprte--></td>
+<td align="center"><!--#icmpprot--></td>
+<td align="center"><!--#icmpopt--></td>
+<td align="center"><!--#icmpmisc--></td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Internet_Protocol" target="_empty">IP</a></td>
+<td align="center"><!--#ipsent--></td>
+<td align="center"><!--#iprecv--></td>
+<td align="center"><!--#ipdrop--></td>
+<td align="center"><!--#ipcksm--></td>
+<td align="center"><!--#iplen--></td>
+<td align="center"><!--#ipmem--></td>
+<td align="center"><!--#iprte--></td>
+<td align="center"><!--#ipprot--></td>
+<td align="center"><!--#ipopt--></td>
+<td align="center"><!--#ipmisc--></td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_empty">TCP</a></td>
+<td align="center"><!--#tcpsent--></td>
+<td align="center"><!--#tcprecv--></td>
+<td align="center"><!--#tcpdrop--></td>
+<td align="center"><!--#tcpcksm--></td>
+<td align="center"><!--#tcplen--></td>
+<td align="center"><!--#tcpmem--></td>
+<td align="center"><!--#tcprte--></td>
+<td align="center"><!--#tcpprot--></td>
+<td align="center"><!--#tcpopt--></td>
+<td align="center"><!--#tcpmisc--></td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/User_Datagram_Protocol" target="_empty">UDP</a></td>
+<td align="center"><!--#udpsent--></td>
+<td align="center"><!--#udprecv--></td>
+<td align="center"><!--#udpdrop--></td>
+<td align="center"><!--#udpcksm--></td>
+<td align="center"><!--#udplen--></td>
+<td align="center"><!--#udpmem--></td>
+<td align="center"><!--#udprte--></td>
+<td align="center"><!--#udpprot--></td>
+<td align="center"><!--#udpopt--></td>
+<td align="center"><!--#udpmisc--></td>
+</tr>
+</table>
+</body>
+</html>

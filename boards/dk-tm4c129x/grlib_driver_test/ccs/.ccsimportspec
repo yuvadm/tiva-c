@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="driver_config.h"/>
+        <file name="grlib_driver_test.c"/>
+        <file name="images.c"/>
+        <file name="images.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

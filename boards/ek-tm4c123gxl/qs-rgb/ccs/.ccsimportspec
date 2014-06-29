@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="qs-rgb.c"/>
+        <file name="qs-rgb.h"/>
+        <file name="rgb_commands.c"/>
+        <file name="rgb_commands.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>

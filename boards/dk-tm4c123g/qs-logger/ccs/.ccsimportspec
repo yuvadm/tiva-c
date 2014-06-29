@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSpec>
+    <source root="..">
+        <file name="acquire.c"/>
+        <file name="acquire.h"/>
+        <file name="clocksetwidget.c"/>
+        <file name="clocksetwidget.h"/>
+        <file name="flashstore.c"/>
+        <file name="flashstore.h"/>
+        <file name="images.c"/>
+        <file name="images.h"/>
+        <file name="menus.c"/>
+        <file name="menus.h"/>
+        <file name="qs-logger.c"/>
+        <file name="qs-logger.h"/>
+        <file name="stripchartmanager.c"/>
+        <file name="stripchartmanager.h"/>
+        <file name="usbserial.c"/>
+        <file name="usbserial.h"/>
+        <file name="usbstick.c"/>
+        <file name="usbstick.h"/>
+        <file name="usb_serial_structs.c"/>
+        <file name="usb_serial_structs.h"/>
+        <file regex=".*_ccs\.cmd"/>
+        <file name="startup_ccs.c"/>
+    </source>
+</importSpec>
