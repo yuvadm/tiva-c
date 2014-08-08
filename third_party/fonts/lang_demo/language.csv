@@ -1,0 +1,23 @@
+Unused,GrLangEnUS,GrLangDe,GrLangEsSP,GrLangIt,GrLangZhPRC,GrLangKo,GrLangJp
+STR_ENGLISH,English,English,English,English,English,English,English
+STR_ITALIANO,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,
+STR_DEUTSCH,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,
+STR_ESPANOL,Español,Español,Español,Español,Español,Español,Español,
+STR_CHINESE,中国,中国,中国,中国,中国,中国,中国
+STR_KOREAN,한국어,한국어,한국어,한국어,한국어,한국어,한국어
+STR_JAPANESE,日本,日本,日本,日本,日本,日本,日本
+STR_APPNAME,lang_demo,lang_demo,lang_demo,lang_demo,lang_demo,lang_demo,lang_demo
+STR_PLUS,+,+,+,+,+,+,+
+STR_MINUS,-,-,-,-,-,-,-
+STR_CONFIG,Configuration,Konfiguration,Configuración,Configurazione,配置,구성,の構成
+STR_INTRO,Introduction,Einführung,Introducción,Introduzione,简介,소개,はじめ
+STR_UPDATE,Update,Aktualisierung,Actualización,Aggiornamento,更新,새롭게하다,更新
+STR_LANGUAGE,Language,Sprache,Idioma,Lingua,语言,언어,言語
+STR_INTRO_1,This application demonstrates the capabilities of the language support provided with the TivaWare Graphics Library.,"Diese Anwendung zeigt die Fähigkeiten der Sprachunterstützung, die mit der TivaWare Graphics Library geliefert wird.",Esta aplicación demuestra las funciones que ofrece la TivaWare Graphics Library.,Questa applicazione fornisce le funzionalita di supporto linguistico incluse in TivaWare Graphics Library.,此应用程序演示与TivaWare图形库提供的语言支持的能力。,이 응용 프로그램은 TivaWare 그래픽 라이브러리와 함께 제공되는 언어 지원 기능을 보여줍니다.,このアプリケーションでは、ステラのグラフィックライブラリで提供される言語サポートの機能を示しています。
+STR_INTRO_2,The configuration panel allows the language to be switched and the effects will be seen immediately.,Der Konfigurationsbereich ermöglicht dem Benutzer eine sofortige Änderung der Sprache. Die Anderung kann sofort gesehen werden.,El panel de configuración le permite al usuario cambiar el idioma y ver los cambios inmediatamente.,Il pannello di configurazione consente all'utente di cambiare la lingua e visualizzare subito le modifiche.,配置面板允许的语言切换的影响将是立即可见。,구성 패널은 언어가 전환 수 있으며 효과는 즉시 보여줄 것입니다.,設定パネルでは、言語を切り替えることができますし、効果がすぐに見られます。
+STR_INTRO_3,Press the + and - buttons at the bottom of the screen to move between the panels.,"Drucken Sie auf die Tasten + und - unten auf dem Bildschirm, um zwischen den Bereichen zu wechseln.",Oprima las teclas de + y - al final de la pantalla para moverse entre los paneles.,Premere i pulsanti + e - posti nella parte inferiore dello schermo per spostarsi da un pannello all'altro.,按+和 - 按钮在屏幕的底部之间移动的面板。,패널 사이를 이동 화면의 하단에있는 버튼 - +와를 누르십시오.,パネル間を移動するには、画面の下部にあるボタン - +とを押してください。
+STR_UPDATE_TEXT,You may replace the software image flashed by pressing the Update button after setting up the LMFlash utility with the following information:,"Sie können das blinkende Software-Bild ersetzen, indem Sie auf die Schaltflache Aktualisieren klicken, nachdem Sie das Dienstprogramm mit den folgenden Informationen eingerichtet haben:",Usted puede reemplazar la imagen del software proyectada al oprimir el botón de Actualizar después de configurar la utilidad de LMFlash con la siguiente información:,E possibile sostituire l'immagine software ottenuta premendo il pulsante Aggiornamento dopo aver impostato il programma di utilita LMFlash con le seguenti informazioni.,您可能会取代设立以下信息LMFlash实用程序后，按“更新”按钮闪现的软件映像：,다음과 같은 정보를 LMFlash 유틸리티를 설정 후 업데이트 버튼을 눌러 이었지만 소프트웨어 이미지를 대체할 수 :,あなたは、次の情報をLMFlashユーティリティを設定した後、[更新]ボタンを押して、フラッシュのソフトウェアイメージを置き換えることができます。
+STR_UPDATING,Updating,Aktualisierung,Actualizando,Aggiornamento,更新,업데이트,更新
+STR_UART,UART: 115200 N-8-1,UART: 115200 N-8-1,UART: 115200 N-8-1,UART: 115200 N-8-1,UART: 115200 N-8-1,UART: 115200 N-8-1,UART: 115200 N-8-1
+STR_MAC,MAC:,MAC:,MAC:,MAC:,MAC:,MAC:,MAC:
+STR_HEXDIGITS,0123456789abcdef,0123456789abcdef,0123456789abcdef,0123456789abcdef,0123456789abcdef,0123456789abcdef,0123456789abcdef

@@ -1,0 +1,10 @@
+This directory contains an assortment of third party software packages that
+have been ported to the Tiva microcontroller family.  These packages are not
+owned by Texas Instruments and are not subject to the Texas Instruments
+Software License Agreement.  Each package has its own copyright and license
+agreement, and it is your responsibility to comply with the terms of those
+agreements.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS
+OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.

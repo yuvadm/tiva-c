@@ -1,0 +1,52 @@
+*** Creating Trace Output File '.\rvmdk\RTOSDemo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\rvmdk\blockq.o"'
+### List of Objects: adding '".\rvmdk\blocktim.o"'
+### List of Objects: adding '".\rvmdk\death.o"'
+### List of Objects: adding '".\rvmdk\integer.o"'
+### List of Objects: adding '".\rvmdk\main.o"'
+### List of Objects: adding '".\rvmdk\partest.o"'
+### List of Objects: adding '".\rvmdk\pollq.o"'
+### List of Objects: adding '".\rvmdk\semtest.o"'
+### List of Objects: adding '".\rvmdk\startup_rvmdk.o"'
+### List of Objects: adding '".\rvmdk\timertest.o"'
+### List of Objects: adding '".\rvmdk\genqtest.o"'
+### List of Objects: adding '".\rvmdk\qpeek.o"'
+### List of Objects: adding '".\rvmdk\intqueuetimer.o"'
+### List of Objects: adding '".\rvmdk\intqueue.o"'
+### List of Objects: adding '".\rvmdk\recmutex.o"'
+### List of Objects: adding '".\rvmdk\rit128x96x4.o"'
+### List of Objects: adding '"..\Common\drivers\LuminaryMicro\Keil\driverlib.lib"'
+### List of Objects: adding '".\rvmdk\formike128x128x16.o"'
+### List of Objects: adding '"..\Common\drivers\LuminaryMicro\Keil\grlib.lib"'
+### List of Objects: adding '".\rvmdk\tasks.o"'
+### List of Objects: adding '".\rvmdk\list.o"'
+### List of Objects: adding '".\rvmdk\queue.o"'
+### List of Objects: adding '".\rvmdk\port.o"'
+### List of Objects: adding '".\rvmdk\heap_2.o"'
+### List of Objects: adding '".\rvmdk\osram128x64x4.o"'
+### List of Objects: adding '".\rvmdk\uip_task.o"'
+### List of Objects: adding '".\rvmdk\emac.o"'
+### List of Objects: adding '".\rvmdk\httpd.o"'
+### List of Objects: adding '".\rvmdk\httpd-cgi.o"'
+### List of Objects: adding '".\rvmdk\httpd-fs.o"'
+### List of Objects: adding '".\rvmdk\http-strings.o"'
+### List of Objects: adding '".\rvmdk\uip_arp.o"'
+### List of Objects: adding '".\rvmdk\psock.o"'
+### List of Objects: adding '".\rvmdk\timer.o"'
+### List of Objects: adding '".\rvmdk\uip.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\rvmdk\blockq.o" ".\rvmdk\blocktim.o" ".\rvmdk\death.o" ".\rvmdk\integer.o" ".\rvmdk\main.o" ".\rvmdk\partest.o" ".\rvmdk\pollq.o" ".\rvmdk\semtest.o" ".\rvmdk\startup_rvmdk.o" ".\rvmdk\timertest.o" ".\rvmdk\genqtest.o" ".\rvmdk\qpeek.o" ".\rvmdk\intqueuetimer.o" ".\rvmdk\intqueue.o" ".\rvmdk\recmutex.o" ".\rvmdk\rit128x96x4.o" "..\Common\drivers\LuminaryMicro\Keil\driverlib.lib" ".\rvmdk\formike128x128x16.o" "..\Common\drivers\LuminaryMicro\Keil\grlib.lib" ".\rvmdk\tasks.o" ".\rvmdk\list.o" ".\rvmdk\queue.o" ".\rvmdk\port.o" ".\rvmdk\heap_2.o" ".\rvmdk\osram128x64x4.o" ".\rvmdk\uip_task.o" ".\rvmdk\emac.o" ".\rvmdk\httpd.o" ".\rvmdk\httpd-cgi.o" ".\rvmdk\httpd-fs.o" ".\rvmdk\http-strings.o" ".\rvmdk\uip_arp.o" ".\rvmdk\psock.o" ".\rvmdk\timer.o" ".\rvmdk\uip.o" --strict --scatter ".\rvmdk\RTOSDemo.sct" 
+--entry Reset_Handler --autoat --summary_stderr --info summarysizes --info sizes --info totals 
+ --list ".\rvmdk\RTOSDemo.map" -o ".\rvmdk\RTOSDemo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\rvmdk\RTOSDemo.axf'
+### ADS-LD Command File: '.\rvmdk\RTOSDemo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\rvmdk\RTOSDemo.lnp', Handle=0x000004F8
+### Writing '.lnp' file
+### ADS-LD Command file '.\rvmdk\RTOSDemo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
