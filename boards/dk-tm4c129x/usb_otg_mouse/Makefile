@@ -30,7 +30,7 @@ PART=TM4C129XNCZAD
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -43,14 +43,14 @@ include ${ROOT}/makedefs
 VPATH=.
 VPATH+=
 VPATH+=../drivers
-VPATH+=../../../../utils
+VPATH+=../../../utils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=.
 IPATH+=..
-IPATH+=../../../..
+IPATH+=../../..
 
 #
 # The default rule, which causes the OTG Mouse to be built.

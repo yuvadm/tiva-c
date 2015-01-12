@@ -30,7 +30,7 @@ PART=TM4C129XNCZAD
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -41,13 +41,13 @@ include ${ROOT}/makedefs
 # Where to find source files that do not live in this directory.
 #
 VPATH=../drivers
-VPATH+=../../../utils
+VPATH+=../../..ils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=..
-IPATH+=../../../..
+IPATH+=../../..
 
 #
 # The default rule, which causes the hello_widget example to be built.

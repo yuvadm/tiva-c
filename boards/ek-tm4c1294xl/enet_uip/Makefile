@@ -30,7 +30,7 @@ PART=TM4C1294NCPDT
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -41,22 +41,22 @@ include ${ROOT}/makedefs
 # Where to find source files that do not live in this directory.
 #
 VPATH=.
-VPATH+=../../../../third_party/uip-1.0/apps/dhcpc
+VPATH+=../../../third_party/uip-1.0/apps/dhcpc
 VPATH+=../drivers
-VPATH+=../../../../third_party/uip-1.0/apps/httpd
-VPATH+=../../../../third_party/uip-1.0/uip
-VPATH+=../../../../utils
+VPATH+=../../../third_party/uip-1.0/apps/httpd
+VPATH+=../../../third_party/uip-1.0/uip
+VPATH+=../../../utils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=.
 IPATH+=..
-IPATH+=../../../..
-IPATH+=../../../../third_party/uip-1.0/apps
-IPATH+=../../../../third_party/uip-1.0/uip
-IPATH+=../../../../third_party/uip-1.0
-IPATH+=../../../../utils
+IPATH+=../../..
+IPATH+=../../../third_party/uip-1.0/apps
+IPATH+=../../../third_party/uip-1.0/uip
+IPATH+=../../../third_party/uip-1.0
+IPATH+=../../../utils
 
 #
 # The default rule, which causes the Ethernet with uIP to be built.

@@ -30,7 +30,7 @@ PART=TM4C123GH6PGE
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -46,7 +46,7 @@ VPATH=../drivers
 # Where to find header files that do not live in the source directory.
 #
 IPATH=..
-IPATH+=../../../..
+IPATH+=../../..
 
 #
 # The default rule, which causes the interrupts example to be built.
