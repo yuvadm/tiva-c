@@ -30,7 +30,7 @@ PART=TM4C123GH6PM
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -40,7 +40,7 @@ include ${ROOT}/makedefs
 #
 # Where to find header files that do not live in the source directory.
 #
-IPATH=../../../..
+IPATH=../../..
 
 #
 # The default rule, which causes the uart_echo example to be built.

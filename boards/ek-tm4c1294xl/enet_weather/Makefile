@@ -30,7 +30,7 @@ PART=TM4C1294NCPDT
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -41,20 +41,20 @@ include ${ROOT}/makedefs
 # Where to find source files that do not live in this directory.
 #
 VPATH=../drivers
-VPATH+=../../../../third_party/lwip-1.4.1/apps/httpserver_raw
-VPATH+=../../../../utils
+VPATH+=../../../third_party/lwip-1.4.1/apps/httpserver_raw
+VPATH+=../../../utils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=.
 IPATH+=..
-IPATH+=../../../..
-IPATH+=../../../../third_party/lwip-1.4.1/apps
-IPATH+=../../../../third_party/lwip-1.4.1/ports/tiva-tm4c129/include
-IPATH+=../../../../third_party/lwip-1.4.1/src/include
-IPATH+=../../../../third_party/lwip-1.4.1/src/include/ipv4
-IPATH+=../../../../third_party
+IPATH+=../../..
+IPATH+=../../../third_party/lwip-1.4.1/apps
+IPATH+=../../../third_party/lwip-1.4.1/ports/tiva-tm4c129/include
+IPATH+=../../../third_party/lwip-1.4.1/src/include
+IPATH+=../../../third_party/lwip-1.4.1/src/include/ipv4
+IPATH+=../../../third_party
 
 #
 # The default rule, which causes the Sample Ethernet Weather Application using lwIP 1.4.1 to be built.

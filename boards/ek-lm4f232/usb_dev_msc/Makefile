@@ -30,7 +30,7 @@ PART=TM4C123GH6PGE
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -41,16 +41,16 @@ include ${ROOT}/makedefs
 # Where to find source files that do not live in this directory.
 #
 VPATH=../drivers
-VPATH+=../../../../third_party/fatfs/port
-VPATH+=../../../../third_party/fatfs/src
-VPATH+=../../../../utils
+VPATH+=../../../third_party/fatfs/port
+VPATH+=../../../third_party/fatfs/src
+VPATH+=../../../utils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=..
-IPATH+=../../../..
-IPATH+=../../../../third_party
+IPATH+=../../..
+IPATH+=../../../third_party
 
 #
 # The default rule, which causes the Mass Storage Class example to be built.

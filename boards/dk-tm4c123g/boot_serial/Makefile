@@ -30,7 +30,7 @@ PART=TM4C123GH6PGE
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -40,14 +40,14 @@ include ${ROOT}/makedefs
 #
 # Where to find source files that do not live in this directory.
 #
-VPATH=../../../../boot_loader
+VPATH=../../../boot_loader
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=.
-IPATH+=../../../..
-IPATH+=../../../../boot_loader
+IPATH+=../../..
+IPATH+=../../../boot_loader
 
 #
 # The default rule, which causes the Serial Port Boot Loader to be built.
@@ -85,8 +85,8 @@ ${COMPILER}/boot_serial.axf: ${COMPILER}/bl_startup_${COMPILER}.o
 ${COMPILER}/boot_serial.axf: ${COMPILER}/bl_uart.o
 ${COMPILER}/boot_serial.axf: ${COMPILER}/bl_usb.o
 ${COMPILER}/boot_serial.axf: ${COMPILER}/bl_usbfuncs.o
-${COMPILER}/boot_serial.axf: ../../../../boot_loader/bl_link.ld
-SCATTERgcc_boot_serial=../../../../boot_loader/bl_link.ld
+${COMPILER}/boot_serial.axf: ../../../boot_loader/bl_link.ld
+SCATTERgcc_boot_serial=../../../boot_loader/bl_link.ld
 ENTRY_boot_serial=ResetISR
 CFLAGSgcc=-DTARGET_IS_TM4C123_RB1
 

@@ -30,7 +30,7 @@ PART=TM4C123GH6PM
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -40,22 +40,22 @@ include ${ROOT}/makedefs
 #
 # Where to find source files that do not live in this directory.
 #
-VPATH=../../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-VPATH+=../../../../third_party/FreeRTOS/Source/portable/MemMang/
-VPATH+=../../../../third_party/FreeRTOS/Source
+VPATH=../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+VPATH+=../../../third_party/FreeRTOS/Source/portable/MemMang/
+VPATH+=../../../third_party/FreeRTOS/Source
 VPATH+=../drivers
-VPATH+=../../../../utils
+VPATH+=../../../utils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=.
 IPATH+=..
-IPATH+=../../../..
-IPATH+=../../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-IPATH+=../../../../third_party/FreeRTOS
-IPATH+=../../../../third_party/FreeRTOS/Source/include
-IPATH+=../../../../third_party
+IPATH+=../../..
+IPATH+=../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+IPATH+=../../../third_party/FreeRTOS
+IPATH+=../../../third_party/FreeRTOS/Source/include
+IPATH+=../../../third_party
 
 #
 # The default rule, which causes the FreeRTOS example to be built.

@@ -30,7 +30,7 @@ PART=TM4C129XNCZAD
 #
 # The base directory for TivaWare.
 #
-ROOT=../../../..
+ROOT=../../..
 
 #
 # Include the common make definitions.
@@ -40,27 +40,27 @@ include ${ROOT}/makedefs
 #
 # Where to find source files that do not live in this directory.
 #
-VPATH=../../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-VPATH+=../../../../third_party/FreeRTOS/Source/portable/MemMang/
-VPATH+=../../../../third_party/FreeRTOS/Source
+VPATH=../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+VPATH+=../../../third_party/FreeRTOS/Source/portable/MemMang/
+VPATH+=../../../third_party/FreeRTOS/Source
 VPATH+=../drivers
-VPATH+=../../../../third_party/lwip-1.4.1/apps/httpserver_raw
-VPATH+=../../../../utils
+VPATH+=../../../third_party/lwip-1.4.1/apps/httpserver_raw
+VPATH+=../../../utils
 
 #
 # Where to find header files that do not live in the source directory.
 #
 IPATH=.
 IPATH+=..
-IPATH+=../../../..
-IPATH+=../../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-IPATH+=../../../../third_party/FreeRTOS
-IPATH+=../../../../third_party/lwip-1.4.1/apps
-IPATH+=../../../../third_party/FreeRTOS/Source/include
-IPATH+=../../../../third_party/lwip-1.4.1/ports/tiva-tm4c129/include
-IPATH+=../../../../third_party/lwip-1.4.1/src/include
-IPATH+=../../../../third_party/lwip-1.4.1/src/include/ipv4
-IPATH+=../../../../third_party
+IPATH+=../../..
+IPATH+=../../../third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+IPATH+=../../../third_party/FreeRTOS
+IPATH+=../../../third_party/lwip-1.4.1/apps
+IPATH+=../../../third_party/FreeRTOS/Source/include
+IPATH+=../../../third_party/lwip-1.4.1/ports/tiva-tm4c129/include
+IPATH+=../../../third_party/lwip-1.4.1/src/include
+IPATH+=../../../third_party/lwip-1.4.1/src/include/ipv4
+IPATH+=../../../third_party
 
 #
 # The default rule, which causes the FreeRTOS example to be built.
