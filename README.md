@@ -2,7 +2,7 @@
 
 A ready-made repository for writing, compiling and flashing code for the TI Tiva C.
 
-Tested on Mac OS X 10.6.8, should work on most Macs and Linuxes.
+Should work on most Linux and Mac environments.
 
 ## Requirements
 
